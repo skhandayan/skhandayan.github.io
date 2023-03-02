@@ -14,13 +14,13 @@ body{
     height: 100%;
     width: 180px;
     position: absolute;
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(54, 49, 49);
     transition: 0.5s ease;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translateX(-180px);
 }
 
 h1{
-    color: white;
+    color: rgb(174, 0, 255);
     font-weight: 800;
     text-align: right;
     padding: 10px 0;
@@ -33,13 +33,18 @@ ul li{
 }
 
 ul li a{
-    color: #000000;
+    color: rgb(174, 0, 255);
     font-weight: 500;
     padding: 5px;
     display: block;
     text-transform: capitalize;
     text-decoration: none;
     transition: 0.2 ease-out;
+}
+
+ul li:hover a{
+    color: rgb(0, 0, 0);
+    background-color:  rgb(174, 0, 255);
 }
 
 ul li a i{
@@ -61,15 +66,20 @@ input{
     z-index: 1;
     cursor: pointer;
     border-radius: 2px;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     box-shadow: 0 0 10px rgb(0,0,0,0.3);
+}
+
+.toggle:hover{
+    background-color:  rgb(174, 0, 255);
+    opacity: 0.6;
 }
 
 .toggle .common{
     position: absolute;
     height: 3px;
     width: 20px;
-    background-color: black;
+    background-color: rgb(174, 0, 255);
     border-radius: 50px;
     transition: 0.3s ease;
 }
@@ -90,4 +100,39 @@ input{
     top:70%;
     left:50%;
     transform: translate(-50%, -50%);
+}
+
+input:checked ~ .toggle .top_line{
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform:rotate(45deg);
+}
+
+input:checked ~ .toggle .bottom_line{
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform:rotate(-45deg);
+}
+
+input:checked ~ .toggle .middle_line{
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+input:checked ~ .slide{
+    transform: translateX(0);
+    box-shadow: 0 0 8px rgb(174, 0, 255);
+    
+}
+
+img{
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    top: 00px;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
