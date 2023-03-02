@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body{
+    background-color: #000000   ;
+}
+
+.slide{
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    background-color: rgb(255, 136, 0);
+    transition: 0.5s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: white;
+    font-weight: 800;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: #000000;
+    font-weight: 500;
+    padding: 5px;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2 ease-out;
+}
+
+ul li a i{
+    width: 40px;
+    text-align: center;   
+}
+
+input{
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+}
+.toggle{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: red;
+    box-shadow: 0 0 10px rgb(0,0,0,0.3);
+}
+
+.toggle .common{
+    position: absolute;
+    height: 3px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.toggle .top_line{
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.toggle .middle_line{
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.toggle .bottom_line{
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
