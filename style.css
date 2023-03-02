@@ -7,7 +7,10 @@
 }
 
 body{
-    background-color: #000000   ;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    
 }
 
 .slide{
@@ -127,12 +130,13 @@ input:checked ~ .slide{
     
 }
 
-img{
+.container{
     position: absolute;
-    border-radius: 50%;
-    width: 150px;
-    top: 00px;
-    left: 50%;
-    transform: translateX(-50%);
-
+    background: #000 url(https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/323227692_1452731708470024_681993265898888802_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH3BBelOQybInNkDAVtJvy7i8pw8Sz4QlyLynDxLPhCXFxmmhUjdB96GLliGhQG9iKVjtmHWcW5RrtYNfY8eg5N&_nc_ohc=dmnCtyw4OagAX9LQzU6&_nc_ht=scontent.fmnl4-6.fna&oh=00_AfCguz8_kZCs4-e2Txje6TttYBNzHFwQIKIvyGukfUmtPA&oe=64056B1F);
+    color: aliceblue;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
