@@ -7,6 +7,7 @@
 }
 
 body{
+    background-color: #000;
     height: 400px;
     width: 100%;
     display: flex;
@@ -130,13 +131,79 @@ input:checked ~ .slide{
     
 }
 
-.container{
+
+.about{
     position: absolute;
-    background: #000 url(https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/323227692_1452731708470024_681993265898888802_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH3BBelOQybInNkDAVtJvy7i8pw8Sz4QlyLynDxLPhCXFxmmhUjdB96GLliGhQG9iKVjtmHWcW5RrtYNfY8eg5N&_nc_ohc=dmnCtyw4OagAX9LQzU6&_nc_ht=scontent.fmnl4-6.fna&oh=00_AfCguz8_kZCs4-e2Txje6TttYBNzHFwQIKIvyGukfUmtPA&oe=64056B1F);
-    color: aliceblue;
-    height: 400px;
-    width: 100%;
-    display: flex;
+    font-size: 15px;
+    top: 50%;
+    left: 20%;
+}
+
+.intro{
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    top: 500px;
+    left: 30%;
+    text-align: center;
     justify-content: center;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    height: 75%;
+    width: 100%;
+}
+
+.intro{
+    top: 30%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 200;
+    text-shadow: #ffffff 2px;
+}
+
+.about{
+    top: 75%;
+}
+
+.pic{
+    position: absolute;
+    height: 250px;
+    width: 275px;
+    align-items: center;
+    justify-content: center;
+    top: 89%;
+    left: 20%;
+}
+
+.name{
+    position: absolute;
+    display: flex;
+    top: 83%;
+    color: white;
+    left: 20%;
+}
+
+.me{
+    position: absolute;
+    display: flex;
+    top: 83%;
+    color: rgb(174, 0, 255);
+    right: 20%;
+}
+
+.design{
+    position: absolute;
+    display: flex;
+    top: 89%;
+    color: rgb(255, 255, 255);
+    right: 20%;
+    text-indent: 5px;
+    display: inline-block;
 }
