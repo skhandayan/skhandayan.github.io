@@ -7,6 +7,7 @@
 }
 
 body{
+    margin: auto;
     background-color: #000;
     height: 400px;
     width: 100%;
@@ -15,6 +16,7 @@ body{
 }
 
 .slide{
+    margin: auto;
     height: 100%;
     width: 180px;
     position: absolute;
@@ -24,6 +26,7 @@ body{
 }
 
 h1{
+    margin: auto;
     color: rgb(174, 0, 255);
     font-weight: 800;
     text-align: right;
@@ -33,10 +36,12 @@ h1{
 }
 
 ul li{
+    margin: auto;
     list-style: none;
 }
 
 ul li a{
+    margin: auto;
     color: rgb(174, 0, 255);
     font-weight: 500;
     padding: 5px;
@@ -52,16 +57,19 @@ ul li:hover a{
 }
 
 ul li a i{
+    margin: auto;
     width: 40px;
     text-align: center;   
 }
 
 input{
+    margin: auto;
     display: none;
     visibility: hidden;
     -webkit-appearance: none;
 }
 .toggle{
+    margin: auto;
     position: absolute;
     height: 30px;
     width: 30px;
@@ -80,6 +88,7 @@ input{
 }
 
 .toggle .common{
+    margin: auto;
     position: absolute;
     height: 3px;
     width: 20px;
@@ -133,6 +142,7 @@ input:checked ~ .slide{
 
 
 .about{
+    margin: auto;
     position: absolute;
     font-size: 15px;
     top: 50%;
@@ -140,6 +150,7 @@ input:checked ~ .slide{
 }
 
 .intro{
+    margin: auto;
     color: white;
     position: absolute;
     font-size: 15px;
@@ -150,6 +161,7 @@ input:checked ~ .slide{
 }
 
 img{
+    margin: auto;
     position: absolute;
     top: 0;
     height: 75%;
@@ -157,6 +169,7 @@ img{
 }
 
 .intro{
+    margin: auto;
     top: 30%;
     display: flex;
     align-items: center;
@@ -169,10 +182,12 @@ img{
 }
 
 .about{
+    margin: auto;
     top: 75%;
 }
 
 .pic{
+    margin: auto;
     position: absolute;
     height: 250px;
     width: 275px;
@@ -183,6 +198,7 @@ img{
 }
 
 .name{
+    margin: auto;
     position: absolute;
     display: flex;
     top: 83%;
@@ -191,6 +207,7 @@ img{
 }
 
 .me{
+    margin: auto;
     position: absolute;
     display: flex;
     top: 83%;
@@ -199,6 +216,7 @@ img{
 }
 
 .design{
+    margin: auto;
     position: absolute;
     display: flex;
     top: 89%;
